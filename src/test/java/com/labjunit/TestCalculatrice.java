@@ -44,8 +44,7 @@ public class TestCalculatrice {
     
     @Test
     public void testFibonacci() {
-        Calculatrice calculatrice = new Calculatrice();
-        assertEquals(5, calculatrice.fibonacci(5));
+        assertEquals(5, Calculatrice.fibonacci(5));
     }
     
     @Test
